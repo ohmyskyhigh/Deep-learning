@@ -1,0 +1,7 @@
+//checking environments
+conda info --envs
+
+//define new environment
+conda create -n (env_name) (list of packages)
+example: a data environment with python3.6 with numpy pandas
+conda create -n data python=3.6 numpy pandas
